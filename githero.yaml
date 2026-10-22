@@ -1,0 +1,6 @@
+runner: go
+on:
+  push: ["*"]
+steps:
+  - name: ok
+    run: echo ok
